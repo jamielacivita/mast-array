@@ -43,18 +43,19 @@ function findById(id)
         //console.log("user",user["id"])
         if (user["id"]==id)
         {
-            console.log("found it")
             return user;
         }
-        return "4 {error: 'Sorry that user id could not be found'}";
     }
-
-
 //Todo: return an error object.
-
+        return "4 {error: 'Sorry that user id could not be found'}";
 }
 findById(17) //Should return {id: 17, name: 'St. MaryLou de la playa carmen'}
 findById(1000) //Should return 4 {error: 'Sorry that user id could not be found'} ****Upshift Challenge
+
+
+
+
+
 
 //Write a function that accepts a name argument and will loop over theBand and return the band member's name and the instrument that he/she plays
 //use string concat to return the sentence below 
